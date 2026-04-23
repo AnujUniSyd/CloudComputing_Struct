@@ -14,7 +14,7 @@ import google.generativeai as genai
 # =========================================================
 
 AWS_REGION = "us-east-1"
-S3_BUCKET_NAME = "pdf-upload-assignement-1"
+S3_BUCKET_NAME = "pdf-upload-assignement-2"
 
 DB_HOST = "localhost"
 DB_PORT = 5432
