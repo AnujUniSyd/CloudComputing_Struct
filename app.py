@@ -197,8 +197,8 @@ def upload_document():
         file.save(temp_path)
 
         # Upload original PDF to S3
-        # with open(temp_path, "rb") as pdf_for_s3:
-        #     upload_file_to_s3(pdf_for_s3, s3_key)
+        with open(temp_path, "rb") as pdf_for_s3:
+             upload_file_to_s3(pdf_for_s3, s3_key)
 
         # Upload PDF to Gemini Files API
         gemini_file = upload_pdf_to_gemini(temp_path)
