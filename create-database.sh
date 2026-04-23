@@ -7,7 +7,7 @@ if ! command -v psql >/dev/null 2>&1; then
 fi
 
 PGHOST="localhost"
-PGPORT="5433"
+PGPORT="5432"
 PGDATABASE="postgres"
 PGUSER="postgres"
 PGPASSWORD="2401"
