@@ -19,7 +19,7 @@ S3_BUCKET_NAME = "pdf-upload-assignement-1"
 DB_HOST = "localhost"
 DB_PORT = 5432
 DB_NAME = "postgres"
-DB_USER = "YOUR_DB_USERNAME"
+DB_USER = "postgres"
 DB_PASSWORD = "2401"
 
 GOOGLE_API_KEY = "KEY_GOT"
